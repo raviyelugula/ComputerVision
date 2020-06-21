@@ -30,8 +30,6 @@ faceRecognizerFisher = cv2.face.FisherFaceRecognizer_create()
 faceRecognizerFisher.read('trainingDataFisher.yml')
 """
 
-# name = {0: "Priyanka", 1: "Kangana", 2: "Deepika", 3: "Saif", 4: "Diana"}
-# Creating dictionary containing names for each label
 
 # This module takes images  stored in TestImages and performs face recognition
 testImg = cv2.imread('data/testing/Cocktail_1.jpg')  # test_img path
